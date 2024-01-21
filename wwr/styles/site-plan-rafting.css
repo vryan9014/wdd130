@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Roboto:wght@300&display=swap');
+
+:root {
+    --primary-color: #374044   ;
+    --secondary-color: #3ca27e ;
+    --accent1-color: #b38a3d;
+    --accent2-color: white;
+  
+  
+    --heading-font: "Grechen Fuemen";
+    --paragraph-font: Roboto, Arial, Helvetica;
+  
+    --headline-color-on-white: black;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #374044; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #374044 ;
+    --nav-link-color: #374044;
+    --nav-background-color: #3ca27e;
+    --nav-hover-link-color: #b38a3d;
+    --nav-hover-background-color: #374044;
+  }
+  
+  
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary color);
+}
+/* h2 {
+  text-align: center;
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+} */
+header {
+  padding: 20px;
+  background-color: var(--paragraph-background-color);
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+p {
+  padding: 25px;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
