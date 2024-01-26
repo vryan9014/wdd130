@@ -11,9 +11,9 @@
     --heading-font: "Grechen Fuemen";
     --paragraph-font: Roboto, Arial, Helvetica;
   
-    --headline-color-on-white: black;  /* headlines on a white background */ 
-    --headline-color-on-color: white; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #374044; /* paragraph text on a white background */ 
+    --headline-color-on-white: black;  /* headlines on a black background */ 
+    --headline-color-on-color: white; /* headlines on a white background */ 
+    --paragraph-color-on-white: #374044; /* paragraph text on a gray background */ 
     --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
     --paragraph-background-color: #374044 ;
     --nav-link-color: #374044;
